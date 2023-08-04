@@ -43,7 +43,7 @@ body{
 
   a {
     text-decoration: none;
-    color: hsl(233, 8%, 79%);
+    color: hsl(240, 2%, 56%);
   }
   a:hover{
     color: hsl(35, 77%, 62%);
@@ -64,7 +64,7 @@ body{
 }
 
 .grid-item {
-  background-color: #f2f2f2;
+  /* background-color: #f2f2f2; */
   /* padding: 20px; */
   /* text-align: center; */
 }
@@ -91,21 +91,97 @@ body{
   color: hsl(35, 77%, 62%);
 }
 .h3{
-  color: white;
   margin-top: 15px;
   margin-bottom: 10px;
+}
+.h3 a{
+  color: rgb(255, 252, 252);
+}
+
+.h3 a:hover{
+  color: hsl(35, 77%, 62%);
 }
 .p_article{
   width: 200px;
   color: hsl(60, 1%, 81%);
   font-size: 12px;
-  white-space: break-spaces;
+ margin-bottom: 20px;
+
 }
 
 hr{
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 20px;
   border-color: hsl(60, 1%, 81%);
+}
+
+.h1_gridItem3{
+  font-weight: bolder;
+  font-size: 50px;
+  width: 300px;
+}
+
+.btn{
+  width: 120px;
+  height: 30px;
+  background-color: hsl(5, 85%, 63%);
+  text-align: center;
+  border: 0;
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+
+}
+
+.btn a{
+  color: rgb(250, 243, 243);
+}
+
+.btn:hover{
+  background-color: hsl(240, 100%, 5%);
+}
+
+.p_gridItem4{
+  font-size: 14px;
+  color:hsl(240, 2%, 56%);
+  line-height: 20px;
+}
+
+.row3_articleBox{
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.img_row3_articleBox{
+  width: 100px;
+  height: 100px;
+}
+
+.h2_row3_articleBox{
+  color: hsl(0, 2%, 78%);
+  margin-bottom: 10px;
+}
+
+.h5_row3_articleBox{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.h5_row3_articleBox a{
+  color: rgb(12, 12, 12);
+}
+.h5_row3_articleBox a:hover{
+  color:  hsl(5, 85%, 63%);
+
+}
+
+.p_row3_articleBox{
+  font-size: 12px;
+  color: hsl(240, 2%, 56%);
+  width: 160px;
 }
 
   /* Mobile view */
@@ -149,7 +225,7 @@ hr{
         position: fixed;
         top: 0;
         right: 0;
-        background-color: rgb(182, 110, 110);
+        background-color: white;
         padding-top: 40px;
         transition: all 0.3s linear;
     }
@@ -159,7 +235,7 @@ hr{
         padding: 10px 15px;
         text-decoration: none;
         font-size: 16px;
-        color: white;
+        color: rgb(28, 28, 28);
         display: block;
     }
     
@@ -178,4 +254,6 @@ hr{
       margin-left: 220px;
       margin-top: -20px;
     }
+
+    
   }

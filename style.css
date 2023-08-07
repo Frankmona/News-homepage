@@ -77,12 +77,17 @@ body{
   grid-row: span 2;   
 }
 
-.web3_mobileImg{
+.web3_desktopImg{
   width: 100%;
 }
 
+.web3_mobileImg{
+  width: 0;
+
+}
+
 .section2{
-  width: 100%;
+  /* width: 100%; */
   background-color: hsl(240, 100%, 5%);
   min-height: 0;
   padding: 10px;
@@ -255,5 +260,19 @@ hr{
       margin-top: -20px;
     }
 
-    
+    .grid-container {
+      display: block;
+      grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+      gap: 15px; /* Gap between grid items */
+      max-width: 1000px; /* Set a maximum width for responsiveness */
+      margin: 0 auto;
+      margin: 20px;
+  }
+  .web3_desktopImg{
+    width: 0
+  }
+  .web3_mobileImg{
+    width:100%;
+  }
+  
   }

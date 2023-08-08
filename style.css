@@ -229,7 +229,7 @@ hr{
         width: 300px; /* Adjust as needed */
         position: fixed;
         top: 0;
-        right: 0;
+        right: -300px;
         background-color: white;
         padding-top: 40px;
         transition: all 0.3s linear;
